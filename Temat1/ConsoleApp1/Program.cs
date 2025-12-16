@@ -6,7 +6,7 @@ class Program
     {
         while (true)
         {
-            Console.Clear(); // Czyści ekran przed pokazaniem menu
+            Console.Clear();
             Console.WriteLine("=== MENU GŁÓWNE ===");
             Console.WriteLine("1. Zadanie 1: Prosty Kalkulator");
             Console.WriteLine("2. Zadanie 2: Konwerter Temperatur");
@@ -172,4 +172,5 @@ class Program
         Console.WriteLine("\nNaciśnij dowolny klawisz, aby wrócić do menu...");
         Console.ReadKey();
     }
+
 }
